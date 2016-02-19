@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		325710591C76ACE80009A0BE /* SearchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 325710581C76ACE80009A0BE /* SearchController.swift */; };
 		B51247761B8D2A2B008A96B2 /* Lola 1 Large.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B5E234671B8CDF0400D91DA0 /* Lola 1 Large.jpg */; };
 		B51247771B8D2A2B008A96B2 /* Lola 2 Large.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B5E234681B8CDF0400D91DA0 /* Lola 2 Large.jpg */; };
 		B51247781B8D2A2B008A96B2 /* Lola 3 Large.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B5E234691B8CDF0400D91DA0 /* Lola 3 Large.jpg */; };
@@ -139,6 +140,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		325710581C76ACE80009A0BE /* SearchController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchController.swift; sourceTree = "<group>"; };
 		B526F2871B989C7D00BADB57 /* CustomInputAccessoryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomInputAccessoryView.swift; sourceTree = "<group>"; };
 		B526F2891B98A0BE00BADB57 /* TextFieldsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextFieldsViewController.swift; sourceTree = "<group>"; };
 		B534E2C41B867B3F0038B5DD /* DataItemCellComposer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataItemCellComposer.swift; sourceTree = "<group>"; };
@@ -326,6 +328,7 @@
 				B5B56C081B83F67E00CE4B1D /* DataItemViewController.swift */,
 				B5C784351BD7ABAD00693D86 /* VideoPlayerViewController.swift */,
 				B5D59EE11B85025C00D01057 /* SearchResultsViewController.swift */,
+				325710581C76ACE80009A0BE /* SearchController.swift */,
 			);
 			name = "View Controller samples";
 			sourceTree = "<group>";
@@ -605,6 +608,7 @@
 				B5A935721B738CF800439392 /* SegmentedControlsViewController.swift in Sources */,
 				B5C792861B7BF52600A21550 /* CollectionViewContainerViewController.swift in Sources */,
 				B526F28A1B98A0BE00BADB57 /* TextFieldsViewController.swift in Sources */,
+				325710591C76ACE80009A0BE /* SearchController.swift in Sources */,
 				B5C7928B1B7C0A6400A21550 /* CollectionViewContainerCell.swift in Sources */,
 				B5B7EF3F1B7B8728005DF13D /* ViewControllersMenuViewController.swift in Sources */,
 				B5A935661B738CC100439392 /* ProgressViewController.swift in Sources */,

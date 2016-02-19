@@ -39,24 +39,26 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func packagedSearchController() -> UIViewController {
         // Load a `SearchResultsViewController` from its storyboard.
         let storyboard = UIStoryboard(name: "ViewControllerSamples", bundle: nil)
-        guard let searchResultsController = storyboard.instantiateViewControllerWithIdentifier(SearchResultsViewController.storyboardIdentifier) as? SearchResultsViewController else {
+        guard let searchController = storyboard.instantiateViewControllerWithIdentifier(SearchController.storyboardIdentifier) as? SearchController else {
             fatalError("Unable to instatiate a SearchResultsViewController from the storyboard.")
         }
-        
+        searchController.title =  NSLocalizedString("Search", comment: "")
+        return searchController
         /*
             Create a UISearchController, passing the `searchResultsController` to
             use to display search results.
         */
-        let searchController = UISearchController(searchResultsController: searchResultsController)
-        searchController.searchResultsUpdater = searchResultsController
-        searchController.searchBar.placeholder = NSLocalizedString("Enter keyword (e.g. iceland)", comment: "")
-        
+//        let searchController = UISearchController(searchResultsController: searchResultsController)
+//        searchController.searchResultsUpdater = searchResultsController
+//        searchController.searchBar.placeholder = NSLocalizedString("Enter keyword (e.g. iceland)", comment: "")
+//        
         // Contain the `UISearchController` in a `UISearchContainerViewController`.
-        let searchContainer = UISearchContainerViewController(searchController: searchController)
-        searchContainer.title = NSLocalizedString("Search", comment: "")
+//        let searchContainer = UISearchContainerViewController(searchController: searchController)
+//        searchContainer.title = NSLocalizedString("Search", comment: "")
+
         
         // Finally contain the `UISearchContainerViewController` in a `UINavigationController`.
-        let searchNavigationController = UINavigationController(rootViewController: searchContainer)
-        return searchNavigationController
+//        let searchNavigationController = UINavigationController(rootViewController: searchController)
+//        return searchNavigationController
     }
 }
